@@ -1,0 +1,582 @@
+
+.track-order-section {
+  padding: 28px 5%;
+}
+
+.track-order-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #d7ecd9;
+  border-radius: 24px;
+  background: linear-gradient(120deg, #eaf9ed, #ffffff);
+  box-shadow: 0 8px 25px rgba(30, 100, 45, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.track-order-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 32px rgba(30, 100, 45, 0.14);
+}
+
+.track-order-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 76px;
+  height: 76px;
+  border-radius: 20px;
+  background: #d5f1dc;
+  color: #218542;
+}
+
+.track-order-content {
+  flex: 1;
+}
+
+.track-order-tag {
+  color: #218542;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.track-order-content h2 {
+  margin: 8px 0;
+  color: #183d27;
+  font-size: 28px;
+}
+
+.track-order-content p {
+  margin: 0 0 18px;
+  color: #617267;
+  line-height: 1.7;
+}
+
+.track-order-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 13px 22px;
+  border: none;
+  border-radius: 12px;
+  background: #218542;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+
+/* Track My Order Section */
+.track-order-section {
+  padding: 45px 5%;
+  background: #f8fcf7;
+}
+
+.track-order-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 38px 42px;
+  overflow: hidden;
+  border: 1px solid #dcefe0;
+  border-radius: 26px;
+  background: linear-gradient(120deg, #e5f8e9 0%, #ffffff 55%, #f0fbef 100%);
+  box-shadow: 0 12px 35px rgba(26, 100, 48, 0.09);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.track-order-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 42px rgba(26, 100, 48, 0.15);
+}
+
+.track-order-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 82px;
+  height: 82px;
+  border-radius: 24px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #35a853, #147532);
+  box-shadow: 0 8px 20px rgba(33, 133, 66, 0.25);
+}
+
+.track-order-content {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+
+.track-order-tag {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 30px;
+  color: #19753a;
+  background: #d8f3df;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.track-order-content h2 {
+  margin: 13px 0 10px;
+  color: #173d25;
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.8px;
+}
+
+.track-order-content p {
+  max-width: 520px;
+  margin: 0 0 22px;
+  color: #647469;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Green gradient button */
+.track-order-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 14px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #2fac50, #176c32);
+  box-shadow: 0 7px 18px rgba(33, 133, 66, 0.25);
+  font-size: 15px;
+  font-weight: 750;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+.track-order-button:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #238d40, #105626);
+  box-shadow: 0 11px 25px rgba(33, 133, 66, 0.35);
+}
+
+.track-order-button:active {
+  transform: scale(0.97);
+}
+
+
+/* New premium purple-blue card colors */
+.track-order-section {
+  padding: 45px 5%;
+  background: linear-gradient(135deg, #f3f0ff, #edf7ff);
+}
+
+.track-order-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 38px 42px;
+  overflow: hidden;
+  border: 1px solid #d8d5ff;
+  border-radius: 26px;
+  background: linear-gradient(120deg, #eeeaff, #ffffff 55%, #e8f5ff);
+  box-shadow: 0 12px 35px rgba(80, 65, 180, 0.12);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.track-order-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 42px rgba(80, 65, 180, 0.2);
+}
+
+/* Icon color */
+.track-order-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 82px;
+  height: 82px;
+  border-radius: 24px;
+  color: white;
+  background: linear-gradient(135deg, #8b5cf6, #2563eb);
+  box-shadow: 0 8px 22px rgba(91, 75, 220, 0.3);
+}
+
+/* Text styles */
+.track-order-tag {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 30px;
+  color: #6241c7;
+  background: #e4ddff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.track-order-content h2 {
+  margin: 13px 0 10px;
+  color: #29245f;
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.8px;
+}
+
+.track-order-content p {
+  max-width: 520px;
+  margin: 0 0 22px;
+  color: #686982;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Animated gradient button */
+.track-order-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 14px;
+  color: white;
+  background: linear-gradient(100deg, #7c3aed, #2563eb, #06b6d4);
+  background-size: 200% 200%;
+  box-shadow: 0 7px 20px rgba(91, 75, 220, 0.3);
+  font-size: 15px;
+  font-weight: 750;
+  cursor: pointer;
+  animation: buttonGradient 5s ease infinite;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.track-order-button:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(91, 75, 220, 0.4);
+}
+
+.track-order-button:active {
+  transform: scale(0.97);
+}
+
+@keyframes buttonGradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+
+/* New premium purple-blue card colors */
+.track-order-section {
+  padding: 45px 5%;
+  background: linear-gradient(135deg, #f3f0ff, #edf7ff);
+}
+
+.track-order-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 38px 42px;
+  overflow: hidden;
+  border: 1px solid #d8d5ff;
+  border-radius: 26px;
+  background: linear-gradient(120deg, #eeeaff, #ffffff 55%, #e8f5ff);
+  box-shadow: 0 12px 35px rgba(80, 65, 180, 0.12);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.track-order-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 42px rgba(80, 65, 180, 0.2);
+}
+
+/* Icon color */
+.track-order-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 82px;
+  height: 82px;
+  border-radius: 24px;
+  color: white;
+  background: linear-gradient(135deg, #8b5cf6, #2563eb);
+  box-shadow: 0 8px 22px rgba(91, 75, 220, 0.3);
+}
+
+/* Text styles */
+.track-order-tag {
+  display: inline-block;
+  padding: 7px 12px;
+  border-radius: 30px;
+  color: #6241c7;
+  background: #e4ddff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.track-order-content h2 {
+  margin: 13px 0 10px;
+  color: #29245f;
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.8px;
+}
+
+.track-order-content p {
+  max-width: 520px;
+  margin: 0 0 22px;
+  color: #686982;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Animated gradient button */
+.track-order-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 14px;
+  color: white;
+  background: linear-gradient(100deg, #7c3aed, #2563eb, #06b6d4);
+  background-size: 200% 200%;
+  box-shadow: 0 7px 20px rgba(91, 75, 220, 0.3);
+  font-size: 15px;
+  font-weight: 750;
+  cursor: pointer;
+  animation: buttonGradient 5s ease infinite;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.track-order-button:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(91, 75, 220, 0.4);
+}
+
+.track-order-button:active {
+  transform: scale(0.97);
+}
+
+@keyframes buttonGradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Moving delivery truck */
+.track-order-decoration {
+  position: absolute;
+  right: 35px;
+  bottom: 18px;
+  font-size: 64px;
+  opacity: 0.85;
+  animation: truckDrive 4s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes truckDrive {
+  0% {
+    transform: translateX(-90px) rotate(-3deg);
+  }
+  25% {
+    transform: translateX(-30px) translateY(-7px) rotate(0deg);
+  }
+  50% {
+    transform: translateX(15px) translateY(0) rotate(3deg);
+  }
+  75% {
+    transform: translateX(55px) translateY(-5px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-90px) rotate(-3deg);
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .track-order-section {
+    padding: 28px 16px;
+  }
+
+  .track-order-card {
+    gap: 16px;
+    padding: 25px 20px;
+    border-radius: 20px;
+  }
+
+  .track-order-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 16px;
+  }
+
+  .track-order-content h2 {
+    font-size: 23px;
+  }
+
+  .track-order-content p {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .track-order-button {
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+
+  .track-order-decoration {
+    right: 12px;
+    bottom: 8px;
+    font-size: 35px;
+    opacity: 0.35;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .track-order-decoration,
+  .track-order-button {
+    animation: none;
+  }
+}
+.home-checkout-bar {
+  max-width: 1120px;
+  margin: 30px auto;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #ffffff;
+  border: 1px solid #dce8d8;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(30, 70, 35, 0.08);
+}
+
+.home-checkout-bar p {
+  margin: 8px 0 0;
+  color: #278447;
+  font-weight: 700;
+}
+
+.home-checkout-bar .checkout-primary {
+  width: auto;
+}
+
+@media (max-width: 600px) {
+  .home-checkout-bar {
+    margin: 20px 14px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home-checkout-bar .checkout-primary {
+    width: 100%;
+  }
+}
+
+
+.home-newsletter-button {
+  background: linear-gradient(135deg, #16a34a 0%, #65a30d 50%, #84cc16 100%);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  padding: 14px 24px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  box-shadow: 0 6px 18px rgba(22, 163, 74, 0.25);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.home-newsletter-button:hover {
+  background: linear-gradient(135deg, #15803d 0%, #4d7c0f 50%, #65a30d 100%);
+  box-shadow: 0 10px 24px rgba(22, 163, 74, 0.35);
+  transform: translateY(-3px);
+}
+
+.home-newsletter-button:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.farmer-banner-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.dashboard-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 20px;
+  border-radius: 12px;
+  background: #176b3a;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.dashboard-link:hover {
+  background: #10552d;
+  transform: translateY(-3px);
+}
+.home-cart-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 24px;
+}
+
+.cart-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #15803d;
+  text-decoration: none;
+  background: #f0fdf4;
+  padding: 12px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.cart-link:hover {
+  background: #dcfce7;
+  transform: scale(1.08);
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  min-width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dc2626;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 4px;
+}

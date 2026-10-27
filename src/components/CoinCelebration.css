@@ -1,0 +1,110 @@
+
+.coin-celebration {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: rgba(12, 35, 20, 0.72);
+  backdrop-filter: blur(5px);
+  animation: celebrationFade 0.35s ease-out;
+}
+
+.falling-coin {
+  position: absolute;
+  top: -60px;
+  animation-name: coinFall;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+.coin-success-card {
+  position: relative;
+  z-index: 2;
+  width: min(90%, 390px);
+  padding: 36px 24px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 26px;
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.25);
+  animation: successPop 0.6s cubic-bezier(.2, 1.5, .5, 1);
+}
+
+.success-check {
+  display: grid;
+  place-items: center;
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  color: white;
+  background: #239b56;
+  font-size: 42px;
+  font-weight: 800;
+  animation: checkPop 0.5s ease-out 0.2s both;
+}
+
+.coin-success-card h2 {
+  margin: 0 0 10px;
+  color: #176b38;
+  font-size: 28px;
+}
+
+.coin-success-card p {
+  color: #59665c;
+  line-height: 1.6;
+}
+
+.cod-badge {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  border-radius: 30px;
+  background: #e8f7ed;
+  color: #176b38;
+  font-weight: 700;
+}
+
+@keyframes coinFall {
+  from {
+    transform: translateY(-10vh) rotate(0deg);
+  }
+  to {
+    transform: translateY(115vh) rotate(var(--spin));
+  }
+}
+
+@keyframes successPop {
+  from {
+    opacity: 0;
+    transform: scale(0.65);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes checkPop {
+  from {
+    transform: scale(0) rotate(-45deg);
+  }
+  to {
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes celebrationFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .falling-coin,
+  .coin-success-card,
+  .success-check {
+    animation-duration: 0.01ms !important;
+  }
+}
