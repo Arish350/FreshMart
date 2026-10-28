@@ -364,7 +364,11 @@ useEffect(() => {
 
   async function loadProducts() {
     try {
-      const response = await fetch("http://localhost:5000/api/products");
+      
+const response = await fetch(
+  "https://modest-art-production-9991.up.railway.app/api/products"
+);
+
 
       if (!response.ok) {
         throw new Error(

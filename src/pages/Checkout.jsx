@@ -73,11 +73,13 @@ const orderItems = cartItems.map((item) => {
 });
 
 
-      const response = await fetch("http://localhost:5000/api/orders", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+ 
+const response = await fetch("https://modest-art-production-9991.up.railway.app/api/orders", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+
         body: JSON.stringify({
           customer: form,
           items: orderItems,

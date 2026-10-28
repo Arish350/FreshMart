@@ -109,10 +109,14 @@ export default function FarmerDashboard() {
         setApiLoading(true);
         setApiError("");
 
-        const [ordersResponse, analyticsResponse] = await Promise.all([
-          fetch("http://localhost:5000/api/orders"),
-          fetch("http://localhost:5000/api/analytics"),
-        ]);
+        
+const API_URL = "https://modest-art-production-9991.up.railway.app";
+
+const [ordersResponse, analyticsResponse] = await Promise.all([
+  fetch(`${API_URL}/api/orders`),
+  fetch(`${API_URL}/api/analytics`),
+]);
+
 
         if (!ordersResponse.ok || !analyticsResponse.ok) {
           throw new Error("Unable to load dashboard data");
