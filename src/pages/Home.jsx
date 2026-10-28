@@ -416,7 +416,28 @@ const image =
         });
 
         console.log("Products ready to display:", mongoProducts.length);
-        setProducts(mongoProducts);
+        
+const mergedProducts = [...fallbackProducts];
+
+mongoProducts.forEach((apiProduct) => {
+  const index = mergedProducts.findIndex(
+    (item) =>
+      String(item.name || "").trim().toLowerCase() ===
+      String(apiProduct.name || "").trim().toLowerCase()
+  );
+
+  if (index !== -1) {
+    mergedProducts[index] = {
+      ...mergedProducts[index],
+      ...apiProduct,
+    };
+  } else {
+    mergedProducts.push(apiProduct);
+  }
+});
+
+setProducts(mergedProducts);
+
       } else {
         console.warn(
           "API returned zero products. Keeping fallback products."
